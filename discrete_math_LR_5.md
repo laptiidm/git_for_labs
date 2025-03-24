@@ -54,7 +54,7 @@
 
 Відношення R1 є функціональним, якщо кожен елемент з множини A пов'язаний з не більше ніж одним елементом з множини A. 
 
-Перевіримо:
+Перевіряємо:
 * 1 пов'язаний з 1, 2, 3 та 4
 * 2 пов'язаний з 2, 3 та 4
 * 3 пов'язаний з 3 та 4
@@ -100,14 +100,18 @@
 \[ (A \setminus B) \times C = (A \times C) \setminus (B \times C) \]
 
 ### 1. Ліва частина: \((A \setminus B) \times C\)
+
 Ця множина містить усі впорядковані пари \((x, y)\), де:
+
 - \( x \in A \) та \( x \notin B \)
 - \( y \in C \)
 
 Отже,
+
 \[ (A \setminus B) \times C = \{ (x, y) \mid x \in A, x \notin B, y \in C \} \]
 
 ### 2. Права частина: \((A \times C) \setminus (B \times C)\)
+
 Ця множина містить усі впорядковані пари \((x, y)\), які належать \(A \times C\), але **не** належать \(B \times C\).
 
 - \( A \times C = \{ (x, y) \mid x \in A, y \in C \} \)
@@ -115,9 +119,11 @@
 - \( (A \times C) \setminus (B \times C) \) означає, що беремо всі \( (x, y) \), які є в \( A \times C \), але **не** в \( B \times C \), тобто \( x \notin B \).
 
 Отже,
+
 \[ (A \times C) \setminus (B \times C) = \{ (x, y) \mid x \in A, x \notin B, y \in C \} \]
 
 ### 3. Висновок
+
 Оскільки отримані множини однакові, маємо рівність:
 
 \[ (A \setminus B) \times C = (A \times C) \setminus (B \times C) \]
