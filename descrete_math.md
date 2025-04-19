@@ -34,3 +34,7 @@
 Отже, мінімальна ДНФ (диз'юнктивна нормальна форма):
 
 $\qquad f(x,y,z,t) = xy + \overline{z}\overline{t} + \overline{x} y z$
+
+# Зображення схеми
+
+[Схема логічного виразу](screenshots/scheme.png)
