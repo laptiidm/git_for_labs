@@ -37,4 +37,4 @@ $\qquad f(x,y,z,t) = xy + \overline{z}\overline{t} + \overline{x} y z$
 
 # Зображення схеми
 
-[Схема логічного виразу](screenshots/scheme.png)
+![Схема логічного виразу](screenshots/scheme.png)
